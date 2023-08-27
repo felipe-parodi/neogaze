@@ -18,7 +18,7 @@ Frames are sorted into the following 11 AOIs:
 
 ### Terminology
 
-- Gaze Point: A single eye-tracking data point.
+- Gaze Point: A single eye-tracking data point for 1 frame.
 - Fixation: Three or more sequential gaze points that fall within the same AOI.
 - Saccade: Two or fewer consecutive gaze points when changing focus.
 - AOI Border: A 2-inch region surrounding each object categorized as an AOI.
