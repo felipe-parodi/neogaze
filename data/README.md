@@ -3,7 +3,7 @@
 ### Overview
 NeoGaze is a sparse dataset consisting of 20,405 first-person Point-Of-View (POV) frames featuring clinicians performing neonatal resuscitation procedures. Each frame within the clips is categorized into one of 11 pre-defined Areas of Interest (AOIs).
 
-Note: The dataset will not be released given safety concerns; we instead provide the frame-by-frame output of class and movement data.
+Note: The dataset will not be released given privacy concerns; we instead provide the frame-by-frame output of class and movement data.
 
 ### Categories
 
