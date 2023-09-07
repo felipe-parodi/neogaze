@@ -9,9 +9,8 @@
 | OpenCLIP-ViT-B-32 | Crop + Mask      | ...  | ...     | ...  | NA      | [HuggingFace](https://huggingface.co/laion/CLIP-ViT-B-32-DataComp.M-s128M-b4K) |
 
 ### EIRD Fine-Tuned Gaze Classification
-| Model | Input | Top-1 (%) | Top-3 (%) | Crop-Radius | Inference Time (FPS) | Weights | 
-| :---: | :-------: | :--: | :---------: | :----: | :------------------: | :-----: | 
-| ResNet50 | ... | ... | ... | 128 | ... | [G-Drive](https://drive.google.com/file/d/1whnjqlWjwo6pbBEbitgg1MAeaZE_juZf/view?usp=drive_link) |
-
-| MobileViT   | ... | ... | ... |  128 | ... | [G-Drive](https://drive.google.com/file/d/1V2Za-HmDx-chUBovKvfAr_67s6D1_GTo/view?usp=drive_link) |
-| OpenCLIP-ViT-B-32 |  ... | ... | ... | 128 | 3.2 | ... |
+| Model | Top-1 (%) | Top-3 (%) | Inference Time (FPS) | Weights | 
+| :---: | :-------: | :-------: | :------------------: | :-----: | 
+| ResNet50 | 82.98 | 96.53 | ... | [G-Drive](https://drive.google.com/file/d/1whnjqlWjwo6pbBEbitgg1MAeaZE_juZf/view?usp=drive_link) |
+| MobileViT |  93.02 | 98.74 | ... | [G-Drive](https://drive.google.com/file/d/1V2Za-HmDx-chUBovKvfAr_67s6D1_GTo/view?usp=drive_link) |
+| OpenCLIP-ViT-B-32 | ... | ... | 3.2 | ... |
