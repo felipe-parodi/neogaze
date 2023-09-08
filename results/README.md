@@ -2,7 +2,7 @@
 
 ### Zero-Shot Classification by OpenCLIP Laion-ViT-B-32
 | Model | InputType | Top-1 (%) | Top-3 (%) | Crop-Radius | Weights | 
-| :-------: | :--: | :---------: | :-------: | :----: | :----: | :----: |
+| :---: | :-------: | :-------: | :-------: | :---------: | :-----: |
 | OpenCLIP-ViT-B-32 | Crop | 36.93 | 62.22 | 128 | [HuggingFace](https://huggingface.co/laion/CLIP-ViT-B-32-DataComp.M-s128M-b4K) |
 | OpenCLIP-ViT-B-32 | Crop | 37.92 | 49.39 | 256 | [HuggingFace](https://huggingface.co/laion/CLIP-ViT-B-32-DataComp.M-s128M-b4K) | 
 | OpenCLIP-ViT-B-32 | Mask | 23.15  | 53.67 | NA | [HuggingFace](https://huggingface.co/laion/CLIP-ViT-B-32-DataComp.M-s128M-b4K) |
