@@ -1,6 +1,6 @@
 # NeoGaze Model Gaze Classification Results
 
-### Zero-Shot Classification by OpenCLIP Laion-ViT-B-32
+### Zero-Shot Gaze [Single-Label Image]Classification
 | Model | InputType | Top-1 (%) | Top-3 (%) | Weights | 
 | :---: | :-------: | :-------: | :-------: | :-----: |
 | OpenCLIP-ViT-B-32 | Crop<sub>128</sub> | 36.93 | 62.22 | [HuggingFace](https://huggingface.co/laion/CLIP-ViT-B-32-DataComp.M-s128M-b4K) |
@@ -8,7 +8,7 @@
 | OpenCLIP-ViT-B-32 | Mask | 23.15  | 53.67 | NA | [HuggingFace](https://huggingface.co/laion/CLIP-ViT-B-32-DataComp.M-s128M-b4K) |
 | OpenCLIP-ViT-B-32 | Crop<sub>128</sub> + Mask | 37.92 | 76.10 | NA | [HuggingFace](https://huggingface.co/laion/CLIP-ViT-B-32-DataComp.M-s128M-b4K) |
 
-### EIRD Fine-Tuned Gaze Classification
+### Few-Shot Gaze [Single-Label Image] Classification
 | Model | Top-1 (%) | Top-3 (%) | Inference Time (FPS) | Params (M) | Flops (G) | Weights | 
 | :---: | :-------: | :-------: | :------------------: | :-----: | :-----: | :-----: | 
 | ResNet50 | 82.98 | 96.53 | ... | 25.56 | 4.12 | [G-Drive](https://drive.google.com/file/d/1whnjqlWjwo6pbBEbitgg1MAeaZE_juZf/view?usp=drive_link) |
