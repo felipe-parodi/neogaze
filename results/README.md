@@ -1,12 +1,12 @@
 # NeoGaze Model Gaze Classification Results
 
 ### Zero-Shot Classification by OpenCLIP Laion-ViT-B-32
-| Model | InputType | Top-1 (%) | Top-3 (%) | Crop-Radius | Weights | 
-| :---: | :-------: | :-------: | :-------: | :---------: | :-----: |
-| OpenCLIP-ViT-B-32 | Crop | 36.93 | 62.22 | 128 | [HuggingFace](https://huggingface.co/laion/CLIP-ViT-B-32-DataComp.M-s128M-b4K) |
-| OpenCLIP-ViT-B-32 | Crop | 37.92 | 49.39 | 256 | [HuggingFace](https://huggingface.co/laion/CLIP-ViT-B-32-DataComp.M-s128M-b4K) | 
+| Model | InputType | Top-1 (%) | Top-3 (%) | Weights | 
+| :---: | :-------: | :-------: | :-------: | :-----: |
+| OpenCLIP-ViT-B-32 | Crop<sub>128</sub> | 36.93 | 62.22 | [HuggingFace](https://huggingface.co/laion/CLIP-ViT-B-32-DataComp.M-s128M-b4K) |
+| OpenCLIP-ViT-B-32 | Crop<sub>256</sub> | 37.92 | 49.39 | [HuggingFace](https://huggingface.co/laion/CLIP-ViT-B-32-DataComp.M-s128M-b4K) | 
 | OpenCLIP-ViT-B-32 | Mask | 23.15  | 53.67 | NA | [HuggingFace](https://huggingface.co/laion/CLIP-ViT-B-32-DataComp.M-s128M-b4K) |
-| OpenCLIP-ViT-B-32 | Crop + Mask | 37.92 | 76.10 | 128 | NA | [HuggingFace](https://huggingface.co/laion/CLIP-ViT-B-32-DataComp.M-s128M-b4K) |
+| OpenCLIP-ViT-B-32 | Crop<sub>128</sub> + Mask | 37.92 | 76.10 | NA | [HuggingFace](https://huggingface.co/laion/CLIP-ViT-B-32-DataComp.M-s128M-b4K) |
 
 ### EIRD Fine-Tuned Gaze Classification
 | Model | Top-1 (%) | Top-3 (%) | Inference Time (FPS) | Params (M) | Flops (G) | Weights | 
