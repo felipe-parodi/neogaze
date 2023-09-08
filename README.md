@@ -15,4 +15,8 @@ Neonatal resuscitations are highly complex, requiring physicians to remain calm 
 | 6 | Vitals-Monitor |
 
 ### Repository Contents
-
+/configs   --> Configuration files for each deep learning model.
+/data      --> Example annotation files for testing.
+/notebooks --> Jupyter Notebooks for data preprocessing and model testing.
+/results   --> Results and figures.
+/src       --> Helper functions and source code.
