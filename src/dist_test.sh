@@ -20,4 +20,4 @@ python -m torch.distributed.launch \
     $CONFIG \
     $CHECKPOINT \
     --work-dir $WORK_DIR \
-    --launcher pytorch \    ${@:5}
+    --launcher pytorch ${@:5}
