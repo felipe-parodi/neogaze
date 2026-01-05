@@ -38,10 +38,6 @@ def main():
     args = parser.parse_args()
 
     # build the model from a config file and a checkpoint file
-
-#     python video_demo.py /mmpose/fparodi/neogaeo_demo.py /mmpose/fparodi/neogaze/configs/mobilevit-small_8xb128_in1pose/fpaogaze/rmultilabels_fromsk.py /mmpose/fparodi/neogaze/results/mobilevit_multilabels_fromscratclti-labe.pth --hwithbce/best_multi-label_mAP_epoch_88.pth --device cuda:0
-    
-#     model = 'mobilevit-small_8xb128_in1k.py'
     try:
         pretrained = args.checkpoint or True
         inferencer = ImageClassificationInferencer(

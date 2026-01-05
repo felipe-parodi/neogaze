@@ -1,5 +1,5 @@
 auto_scale_lr = dict(base_batch_size=4096)
-data_prefix = '/mmpose/fparodi/neogaze/data/prepped_training_data/'
+data_prefix = '/path/to/neogaze/data/prepped_training_data/'
 data_preprocessor = dict(
     mean=[
         123.675,
@@ -13,7 +13,7 @@ data_preprocessor = dict(
         57.375,
     ],
     to_rgb=True)
-data_root = '/mmpose/fparodi/neogaze/data/prepped_training_data/all_data'
+data_root = '/path/to/neogaze/data/prepped_training_data/all_data'
 dataset_type = 'CustomDataset'
 default_hooks = dict(
     checkpoint=dict(
@@ -85,7 +85,7 @@ test_dataloader = dict(
     collate_fn=dict(type='default_collate'),
     dataset=dict(
         ann_file=
-        '/mmpose/fparodi/neogaze/data/prepped_training_data/val_full.txt',
+        '/path/to/neogaze/data/prepped_training_data/val_full.txt',
         classes=[
             'Airway-Equipment',
             'CMAC-Screen',
@@ -95,7 +95,7 @@ test_dataloader = dict(
             'Airway-Provider',
             'Vitals-Monitor',
         ],
-        data_root='/mmpose/fparodi/neogaze/data/prepped_training_data/all_data',
+        data_root='/path/to/neogaze/data/prepped_training_data/all_data',
         pipeline=[
             dict(type='LoadImageFromFile'),
             dict(
@@ -140,7 +140,7 @@ train_dataloader = dict(
     collate_fn=dict(type='default_collate'),
     dataset=dict(
         ann_file=
-        '/mmpose/fparodi/neogaze/data/prepped_training_data/train_full.txt',
+        '/path/to/neogaze/data/prepped_training_data/train_full.txt',
         classes=[
             'Airway-Equipment',
             'CMAC-Screen',
@@ -150,7 +150,7 @@ train_dataloader = dict(
             'Airway-Provider',
             'Vitals-Monitor',
         ],
-        data_root='/mmpose/fparodi/neogaze/data/prepped_training_data/all_data',
+        data_root='/path/to/neogaze/data/prepped_training_data/all_data',
         pipeline=[
             dict(type='LoadImageFromFile'),
             dict(
@@ -187,7 +187,7 @@ val_dataloader = dict(
     collate_fn=dict(type='default_collate'),
     dataset=dict(
         ann_file=
-        '/mmpose/fparodi/neogaze/data/prepped_training_data/val_full.txt',
+        '/path/to/neogaze/data/prepped_training_data/val_full.txt',
         classes=[
             'Airway-Equipment',
             'CMAC-Screen',
@@ -197,7 +197,7 @@ val_dataloader = dict(
             'Airway-Provider',
             'Vitals-Monitor',
         ],
-        data_root='/mmpose/fparodi/neogaze/data/prepped_training_data/all_data',
+        data_root='/path/to/neogaze/data/prepped_training_data/all_data',
         pipeline=[
             dict(type='LoadImageFromFile'),
             dict(
@@ -232,4 +232,4 @@ visualizer = dict(
     type='UniversalVisualizer', vis_backends=[
         dict(type='LocalVisBackend'),
     ])
-work_dir = '/mmpose/fparodi/neogaze/results/clip_vit_b32/'
+work_dir = '/path/to/neogaze/results/clip_vit_b32/'
