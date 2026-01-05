@@ -1,7 +1,9 @@
 # OS
 .DS_Store
 Thumbs.db
-
+CLAUDE.md
+docs/ML4H_neogaze_supp.zip
+docs/neogaze.bib
 # Python
 __pycache__/
 *.py[cod]

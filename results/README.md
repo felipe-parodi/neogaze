@@ -7,5 +7,3 @@ Model performance on gaze classification. See `example_outputs/` for training lo
 | MobileViT | 93.02 | 98.74 | 5.58 |
 | OpenCLIP-ViT-B-32 | 87.51 | 97.21 | 86.57 |
 | ResNet50 | 82.98 | 96.53 | 25.56 |
-
-Weights available on [Google Drive](https://drive.google.com/drive/folders/1V2Za-HmDx-chUBovKvfAr_67s6D1_GTo).

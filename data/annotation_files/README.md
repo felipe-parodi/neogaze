@@ -1,3 +1,3 @@
-# Annotations
+# Annotation Files
 
-We used the GUI from DeepEthogram (Bohnslav, 2021) to label gaze classes.
+Frame-level gaze labels created with [DeepEthogram](https://github.com/jbohnslav/deepethogram) GUI.
