@@ -2,6 +2,11 @@
 
 [![Paper](https://img.shields.io/badge/CVPR%20Workshop-2024-blue)](https://openaccess.thecvf.com/content/CVPR2024W/CVPM/html/Parodi_Vision-language_Models_for_Decoding_Provider_Attention_During_Neonatal_Resuscitation_CVPRW_2024_paper.html)
 
+Training code for the computer vision models for neonatologist attention tracking.
+
+## Authors
+**Felipe Parodi**, Jordan K. Matelsky, Alejandra Regla-Vargas, Elizabeth E. Foglia, Charis Lim, Danielle Weinberg, Konrad P. Kording, Heidi M. Herrick, Michael L. Platt
+
 <img src="docs/neogaze-summary.jpeg" alt="NeoGaze Pipeline" width="700">
 
 ## Abstract
