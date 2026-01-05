@@ -57,10 +57,8 @@ neogaze_data/docs/neogaze.bib
 *.pptx
 *.pdf
 
-# Supplementary videos/checkpoints
-docs/neogaze_supp/*.mp4
-docs/neogaze_supp/*.avi
-docs/neogaze_supp/mobilevit-small_checkpoint
+# Supplementary materials
+docs/neogaze_supp/
 
 # Meeting recordings
 *Personal Meeting Room*
@@ -76,6 +74,22 @@ paths.txt
 fig4*.png
 fig5.png
 2024-06-16*
+240308_cvpm.pdf
+parodi_neogaze_CVPM.pptx
+
+# Results figures (may contain sensitive images)
+results/figures/
+
+# Docs - sensitive/large files
+docs/*.jpg
+docs/*.pdf
+docs/*.zip
+docs/*.pptx
+docs/heidi_material/
+docs/NeoGaze_Classes/
+docs/ALERT*.png
+# Keep summary image for README
+!docs/neogaze-summary.jpeg
 
 # Claude
 .claude/
